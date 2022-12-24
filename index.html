@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.outer{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    height: 10%;
+    background-color: #232F3E;
+    color:white;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 90%;
+    /* font-family: 'Montserrat', sans-serif; */
+    color:yellow
+}
+.cubiod{
+    background-color: #232F3E;
+    min-height: 440px;
+    min-width: 633px;
+}
+.bracket{
+   font-size:240px;
+   font-weight: 700;
+    
+
+}
+.sword{
+    min-width: 363px;
+    position: relative;
+    /* top:-92px; */
+}
+
+.lower{
+    height: 25px;
+    width: 50px;
+    background-color: yellow;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+}
+.handle{
+    height: 70px;
+    width: 25px;
+    background-color: yellow;
+
+}
+.upper-handle{
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+}
+.left{
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: -44px;
+    left: 34px;
+    
+}
+.right{
+    transform: rotate(225deg);
+    position: absolute;
+    bottom: -44px;
+    right: 34px;
+
+}
+.final-sword{
+    /* position: absolute; */
+    background-color: yellow;
+    height: 80px;
+    width: 240px;
+    clip-path: polygon(25% 25%, 100% 25%, 100% 75%, 25% 75%, 16% 50%);
+    transform: rotate(-180deg);
+}
+.blue-box-bottom{
+    background-color: #232F3E;
+    height: 12px;
+    width: 48px;
+    position: absolute;
+    z-index: 4;
+    bottom: 60px;
+    left: 113px;
+
+}
+.blue-box-top{
+    background-color: #232F3E;
+    height: 12px;
+    width: 48px;
+    position: absolute;
+    z-index: 4;
+    bottom: 8px;
+    left: 113px;
+
+}
+    </style>
+ 
+</head>
+<body>
+    <div class="outer">
+
+        <nav class="flex">
+            <h1>Q1) CSS BATTLE LOGO</h1>
+        </nav>
+        <main class="flex">
+            <div class="cubiod flex">
+               <div class="bracket">
+                {
+               </div>
+
+               <div class="sword">
+
+               <div class="base flex left">
+                <div class="lower"></div>
+                <div class="handle"></div>
+                <div class="upper-handle"> </div>
+                
+                <div class="final-sword">
+                
+                </div>
+               </div>
+
+               <div class="base flex right">
+                <div class="lower"></div>
+                <div class="handle"></div>
+                <div class="upper-handle"> </div>
+                <div class="blue-box-bottom">
+                </div>
+                <div class="blue-box-top">
+                </div>
+                <div class="final-sword">
+                
+                </div>
+               </div>
+               
+               
+               </div>
+
+
+               <div class="bracket">
+               }
+               </div>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>
